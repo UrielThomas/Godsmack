@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@media only screen and (max-width: 768px) {
+  .aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .aboutus img {
+      height: 40vh;
+      width: 60vh;
+      margin-top: 20vh;
+      margin-bottom: 20vh; }
+    .aboutus p {
+      margin-bottom: 20vh;
+      margin-left: 10vh;
+      margin-right: 10vh;
+      font-size: 30px; }
+  .product div img {
+    height: 25vh;
+    width: 20vh; }
+  .product div .producttxt {
+    font-size: 25px; }
+  .social div a img {
+    height: 30px;
+    width: 30px; } }
+
+@media only screen and (max-width: 480px) {
+  .aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .aboutus img {
+      height: 20vh;
+      width: 30vh;
+      margin-top: 10vh;
+      margin-bottom: 10vh; }
+    .aboutus p {
+      margin-bottom: 10vh;
+      margin-left: 5vh;
+      margin-right: 5vh;
+      font-size: 15px; }
+  .social div a img {
+    height: 20px;
+    width: 20px;
+    margin: 10px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+main {
+  background-color: #b0a498 !important; }
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.297)), url(..//image/Header.7500);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px, 80px, 60px, 80px; }
+  header .title {
+    text-align: center;
+    font-size: 81.9px !important;
+    color: #e8ba56cc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border: 9px ridge transparent;
+    color: #e8ba56cc; }
+  header .ref {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    flex-wrap: wrap;
+    margin-bottom: 0; }
+    header .ref .li {
+      border: 3px solid rgba(226, 172, 90, 0.199);
+      border-radius: 15%;
+      margin-bottom: 5px;
+      list-style: none;
+      padding: 4px; }
+    header .ref a {
+      padding: 2px;
+      list-style: none;
+      text-decoration: none;
+      color: rgba(225, 198, 140, 0.811);
+      margin-top: 40px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+.ref li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1); }
+
+.important {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: 10rem 5rem 35rem 35rem;
+  row-gap: 60px; }
+  .important img {
+    height: 30rem;
+    width: 20rem;
+    border: #333333 1px solid;
+    border-radius: 15px;
+    margin: 10px; }
+  .important .subt {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    text-align: center; }
+    .important .subt h2 {
+      font-size: 90px;
+      font-family: 'Dancing Script', cursive;
+      font-weight: 900;
+      color: #DED6CF;
+      padding: 5px;
+      border: solid rgba(239, 194, 126, 0.395) 1px;
+      background-color: rgba(239, 194, 126, 0.395);
+      border-radius: 5%; }
+  .important .newin1 {
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: space-around;
+    grid-column-end: 4;
+    border: #f7dabd75 solid 3px;
+    border-radius: 15px;
+    background-color: #f7dabd75;
+    margin-bottom: 10rem; }
+    .important .newin1 p {
+      padding-right: 50px; }
+  .important .newin2 {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    border: #f7dabd75 solid 3px;
+    border-radius: 30px;
+    background-color: #f7dabd75; }
+    .important .newin2 p {
+      padding-left: 50px; }
+  .important .newin3 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: space-around;
+    grid-column-end: 4;
+    border: #f7dabd75 solid 3px;
+    border-radius: 30px;
+    background-color: #f7dabd75; }
+    .important .newin3 p {
+      padding-right: 50px; }
+  .important p {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Dancing Script";
+    text-align: center;
+    color: #000000ca;
+    text-justify: auto;
+    justify-content: center;
+    margin-top: 3rem; }
+
+.product {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; }
+  .product div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10vh;
+    border: solid rgba(239, 194, 126, 0.395) 1px;
+    background-color: rgba(239, 194, 126, 0.395);
+    border-radius: 2%; }
+    .product div img {
+      height: 60vh;
+      width: 50vh;
+      border-bottom: solid rgba(239, 194, 126, 0.395) 1px;
+      padding: 5px;
+      border-radius: 2%; }
+    .product div .producttxt {
+      font-size: 30px;
+      font-weight: 300;
+      font-family: Georgia;
+      text-align: center;
+      color: #ebd4c1;
+      padding: 5px; }
+
+.aboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .aboutus img {
+    height: 400px;
+    width: 350px;
+    margin-right: 40px;
+    border: solid rgba(241, 189, 171, 0.692) 5px;
+    background-color: rgba(221, 200, 169, 0.685);
+    margin: 80px 30px 80px 50px; }
+  .aboutus p {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Times New Roman";
+    text-align: center; }
+
+.contact {
+  background-color: #b0a498;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+  .contact .text {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: cursive;
+    text-align: center;
+    border: #DED6CF 2px solid;
+    background-color: #e3cfbbb6;
+    padding: 50px;
+    margin: 60px 70px 60px 70px; }
+    .contact .text h1 {
+      font-size: 35px;
+      font-weight: 900;
+      font-family: cursive;
+      text-align: center; }
+  .contact .formthing {
+    margin-left: 25%;
+    margin-top: 10rem; }
+    .contact .formthing button {
+      margin-left: 13%;
+      margin-top: 40px; }
+
+footer {
+  background-color: #333333 !important;
+  padding: 40px;
+  border: solid black 3px; }
+  footer .social {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+    footer .social div a img {
+      height: 50px;
+      width: 50px; }

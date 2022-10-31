@@ -1,0 +1,30 @@
+.contact {
+    background-color: #b0a498;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    .text {
+        @include text ($small-text, 300, cursive, center);
+        border: #DED6CF 2px solid;
+        background-color: #e3cfbbb6;
+        padding: 50px;
+        margin: 60px 70px 60px 70px;
+
+        h1 {
+            @include text (35px,900,cursive,center)
+        }
+    }
+
+    .formthing {
+        margin-left: 25%;
+        margin-top: 10rem;
+
+        button {
+            margin-left: 13%;
+            margin-top: 40px;
+        }
+    }
+}

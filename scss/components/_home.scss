@@ -1,0 +1,94 @@
+.important {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: 10rem 5rem 35rem 35rem;
+    row-gap: 60px;
+
+    img {
+        height: 30rem;
+        width: 20rem;
+        border: #333333 1px solid;
+        border-radius: 15px;
+        margin: 10px;
+    }
+
+    .subt {
+
+
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        text-align: center;
+
+        h2 {
+            font-size: 90px;
+            font-family: 'Dancing Script', cursive;
+            font-weight: 900;
+            color: #DED6CF;
+            padding: 5px;
+            border: solid rgba(239, 194, 126, 0.395) 1px;
+            background-color: rgba(239, 194, 126, 0.395);
+            border-radius: 5%;
+
+        }
+    }
+
+
+    .newin1 {
+        grid-row-start: 5;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        display: flex;
+        justify-content: space-around;
+        grid-column-end: 4;
+        border: #f7dabd75 solid 3px;
+        border-radius: 15px;
+        background-color: #f7dabd75;
+        margin-bottom: 10rem;
+
+        p {
+            padding-right: 50px;
+        }
+    }
+
+    .newin2 {
+        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        border: #f7dabd75 solid 3px;
+        border-radius: 30px;
+        background-color: #f7dabd75;
+
+        p {
+            padding-left: 50px;
+        }
+    }
+
+    .newin3 {
+        grid-row-start: 3;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        display: flex;
+        justify-content: space-around;
+        grid-column-end: 4;
+        border: #f7dabd75 solid 3px;
+        border-radius: 30px;
+        background-color: #f7dabd75;
+
+        p {
+            padding-right: 50px;
+        }
+    }
+
+    p {
+        @include text ($small-text,900,'Dancing Script',center);
+        color: #000000ca;
+        text-justify: auto;
+        justify-content: center;
+        margin-top: 3rem;
+        ;
+    }
+}

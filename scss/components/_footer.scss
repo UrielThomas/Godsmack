@@ -1,0 +1,20 @@
+footer {
+    background-color: #333333 !important;
+    padding: 40px;
+    border: solid black 3px;
+
+    .social {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        div {
+            a {
+                img {
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+        }
+    }
+}

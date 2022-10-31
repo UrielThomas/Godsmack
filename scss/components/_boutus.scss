@@ -1,0 +1,19 @@
+.aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 400px;
+        width: 350px;
+        margin-right: 40px;
+        border: solid rgba(241, 189, 171, 0.692) 5px;
+        background-color: rgba(221, 200, 169, 0.685);
+        margin: 80px 30px 80px 50px;
+
+    }
+
+    p {
+    @include text ($small-text,500,'Times New Roman',center)
+    }
+}

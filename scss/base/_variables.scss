@@ -1,0 +1,10 @@
+$small-text: 30px;
+
+
+@mixin text ($size,$weight,$family,$align){
+    font-size:$size ;
+    font-weight:$weight ;
+    font-family:$family ;
+    text-align: $align;
+
+}
