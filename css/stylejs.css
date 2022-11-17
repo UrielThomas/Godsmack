@@ -1,50 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-@media only screen and (max-width: 768px) {
-  .aboutus {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; }
-    .aboutus img {
-      height: 40vh;
-      width: 60vh;
-      margin-top: 20vh;
-      margin-bottom: 20vh; }
-    .aboutus p {
-      margin-bottom: 20vh;
-      margin-left: 10vh;
-      margin-right: 10vh;
-      font-size: 30px; }
-  .product div img {
-    height: 25vh;
-    width: 20vh; }
-  .product div .producttxt {
-    font-size: 25px; }
-  .social div a img {
-    height: 30px;
-    width: 30px; } }
-
-@media only screen and (max-width: 480px) {
-  .aboutus {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; }
-    .aboutus img {
-      height: 20vh;
-      width: 30vh;
-      margin-top: 10vh;
-      margin-bottom: 10vh; }
-    .aboutus p {
-      margin-bottom: 10vh;
-      margin-left: 5vh;
-      margin-right: 5vh;
-      font-size: 15px; }
-  .social div a img {
-    height: 20px;
-    width: 20px;
-    margin: 10px; } }
-
 * {
   margin: 0;
   padding: 0;
@@ -61,7 +15,7 @@ header {
   padding: 80px, 80px, 60px, 80px; }
   header .title {
     text-align: center;
-    font-size: 81.9px !important;
+    font-size: 81.9px;
     color: #e8ba56cc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
@@ -253,3 +207,103 @@ footer {
     footer .social div a img {
       height: 50px;
       width: 50px; }
+
+@media only screen and (max-width: 768px) {
+  section div .title {
+    font-size: 60px; }
+  .navi div .ref {
+    font-size: 30px; } }
+
+@media only screen and (max-width: 480px) {
+  section div .title {
+    font-size: 50px; }
+  .navi div .ref {
+    font-size: 20px; } }
+
+@media only screen and (max-width: 768px) {
+  .aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .aboutus img {
+      height: 40vh;
+      width: 60vh;
+      margin-top: 20vh;
+      margin-bottom: 20vh; }
+    .aboutus p {
+      margin-bottom: 20vh;
+      margin-left: 10vh;
+      margin-right: 10vh;
+      font-size: 30px; }
+  .product div img {
+    height: 25vh;
+    width: 20vh; }
+  .product div .producttxt {
+    font-size: 25px; }
+  .social div a img {
+    height: 30px;
+    width: 30px; } }
+
+@media only screen and (max-width: 480px) {
+  .aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .aboutus img {
+      height: 20vh;
+      width: 30vh;
+      margin-top: 10vh;
+      margin-bottom: 10vh; }
+    .aboutus p {
+      margin-bottom: 10vh;
+      margin-left: 5vh;
+      margin-right: 5vh;
+      font-size: 15px; }
+  .social div a img {
+    height: 20px;
+    width: 20px;
+    margin: 10px; } }
+
+@media only screen and (max-width: 768px) {
+  .important .subt h2 {
+    font-size: 50px;
+    font-weight: 300; }
+  .important img {
+    height: 20rem;
+    width: 15rem;
+    margin: 5px; }
+  .important p {
+    font-size: 30px; } }
+
+@media only screen and (max-width: 480px) {
+  .important {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center; }
+    .important .subt h2 {
+      margin-top: 30px;
+      font-size: 50px;
+      font-weight: 300; }
+    .important img {
+      height: 15rem;
+      width: 10rem;
+      margin: 5px; }
+    .important p {
+      font-size: 20px; } }
+
+@media only screen and (max-width: 768px) {
+  .contact .text h1 {
+    font-size: 30px; }
+  .contact .text p {
+    font-size: 20px; } }
+
+@media only screen and (max-width: 480px) {
+  .contact .text h1 {
+    font-size: 30px; }
+  .contact .text p {
+    font-size: 20px; }
+  .contact .formthing {
+    margin-right: 100px; } }
